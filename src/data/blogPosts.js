@@ -6,7 +6,7 @@ const recentPosts = [
     description:
       "How do you create compelling presentations that wow your colleagues and impress your managers?",
     tags: ["Design", "Research", "Presentation"],
-    image: "../public/images/hero1.jpg",
+    image: "/images/hero1.jpg",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const recentPosts = [
     description:
       "Linear helps streamline software projects, sprints, tasks, and bug tracking.",
     tags: ["Design", "Research"],
-    image: "../public/images/hero2.png",
+    image: "/images/hero2.png",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const recentPosts = [
     description:
       "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
     tags: ["Design", "Research"],
-    image: "../public/images/hero3.png",
+    image: "/images/hero3.png",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const recentPosts = [
     description:
       "A grid system is a design tool used to arrange content on a webpage.",
     tags: ["Design", "Interface"],
-    image: "../public/images/hero4.png",
+    image: "/images/hero4.png",
   },
 ];
 
@@ -45,7 +45,7 @@ const allPosts = [
     description:
       "Like to know the secrets of transforming a 2–14 team to a 3x Super Bowl winning Dynasty?",
     tags: ["Leadership", "Management", "Presentation"],
-    image: "../public/images/post1.png",
+    image: "/images/post1.png",
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ const allPosts = [
     description:
       "Mental models are simple expressions of complex processes or relationships.",
     tags: ["Product", "Research", "Frameworks"],
-    image: "../public/images/post2.png",
+    image: "/images/post2.png",
   },
   {
     id: 7,
@@ -63,7 +63,7 @@ const allPosts = [
     description:
       "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
     tags: ["Design", "Research", "Presentation"],
-    image: "../public/images/post3.png",
+    image: "/images/post3.png",
   },
   {
     id: 8,
@@ -72,7 +72,7 @@ const allPosts = [
     description:
       "Collaboration can make our teams stronger, and our individual designs better.",
     tags: ["Design", "Research", "Presentation"],
-    image: "../public/images/post4.png",
+    image: "/images/post4.png",
   },
   {
     id: 9,
@@ -81,7 +81,7 @@ const allPosts = [
     description:
       "JavaScript frameworks make development easy with extensive features and functionalities.",
     tags: ["Software Development", "Tools", "SaaS"],
-    image: "../public/images/post5.png",
+    image: "/images/post5.png",
   },
   {
     id: 10,
@@ -90,7 +90,7 @@ const allPosts = [
     description:
       "Starting a community doesn’t need to be complicated, but how do you get started?",
     tags: ["Podcasts", "Customer Success", "Presentation"],
-    image: "../public/images/post6.png",
+    image: "/images/post6.png",
   },
 ];
 

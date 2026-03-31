@@ -1,12 +1,13 @@
-import { recentPosts } from "../data/blogPosts.js";
+import { recentPosts, allPosts } from "../data/blogPosts.js";
 
-const getAllRecentBlogs = (req, res) => {
+const getAllBlogs = (req, res) => {
   res.status(200).json({
     status: "success",
     data: {
       recentPosts,
+      allPosts,
     },
   });
 };
 
-export { getAllRecentBlogs };
+export { getAllBlogs };
