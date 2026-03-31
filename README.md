@@ -37,14 +37,26 @@ Built with scalable architecture and clean code practices to ensure maintainabil
 ```
 AvanishBlogs-backend
 │
-├── controllers    # Business logic
-├── models         # Database schemas
-├── routes         # API routes
-├── middleware     # Auth & error middleware
-├── config         # DB and environment config
-├── uploads        # Image storage (if local)
-├── server.js      # Entry point
-└── .env           # Environment variables
+├── public                     # Public static files (if any)
+│
+├── src
+│   ├── config                 # Database & environment configuration
+│   ├── controllers            # Route controllers (business logic)
+│   ├── data                   # Static data / seed files
+│   ├── middlewares            # Custom middleware (auth, error handling)
+│   ├── models                 # Database schemas/models
+│   ├── routes                 # API route definitions
+│   ├── uploads                # Uploaded files (images, media)
+│   ├── utils                  # Helper functions & utilities
+│
+│   ├── app.js                 # Express app configuration
+│   └── server.js              # Server entry point
+│
+├── .env                       # Environment variables
+├── .gitignore
+├── package.json               # Project metadata & dependencies
+├── package-lock.json
+└── README.md
 ```
 
 ---
