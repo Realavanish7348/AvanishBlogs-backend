@@ -72,6 +72,21 @@ cd AvanishBlogs-backend
 
 # Install dependencies
 npm install
+
+# Lint Configuration :
+| Package                | Purpose                                     |
+| ---------------------- | ------------------------------------------- |
+| eslint                 | finds errors in JS code                     |
+| prettier               | auto formats code                           |
+| eslint-config-prettier | prevents conflict between eslint & prettier |
+| eslint-plugin-prettier | runs prettier inside eslint                 |
+| eslint-config-airbnb   | popular JS style guide                      |
+| eslint-plugin-node     | Node.js linting rules                       |
+| eslint-plugin-import   | checks import/export syntax                 |
+| eslint-plugin-jsx-a11y | accessibility rules                         |
+| eslint-plugin-react    | React best practices                        |
+
+npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --save-dev
 ```
 
 ---
