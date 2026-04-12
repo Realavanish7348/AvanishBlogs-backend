@@ -1,8 +1,9 @@
 import express from "express";
-import { getAllBlogs } from "../controllers/blogController.js";
+import { getAllBlogs, getPosts } from "../controllers/blogController.js";
 
 const router = express.Router();
 
 router.get("/", getAllBlogs);
+router.get("/getposts", getPosts);
 
 export default router;
