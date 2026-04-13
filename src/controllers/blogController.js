@@ -11,10 +11,10 @@ const getAllBlogs = (req, res) => {
     });
   } catch (err) {
     res.status(400).json({
-      status: "fail",
+      status: "Fail",
       error: {
-        name: "failed to blogs Api ",
-        message: err,
+        name: err.name,
+        message: err.message,
       },
     });
   }
@@ -22,6 +22,7 @@ const getAllBlogs = (req, res) => {
 
 const getPosts = (req, res) => {
   try {
+    // throw new Error("getpaginated posts error");
     const page = req.query.page || 1;
     const limit = req.query.limit || 2;
 
@@ -49,11 +50,10 @@ const getPosts = (req, res) => {
     });
   } catch (err) {
     res.status(400).json({
-      status: "fail",
+      status: "Fail",
       error: {
-        name: "failed to blogs Api",
-        errorName: err.name,
-        message: err,
+        name: err.name,
+        message: err.message,
       },
     });
   }
