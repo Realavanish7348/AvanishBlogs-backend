@@ -1,4 +1,4 @@
-import { BioData } from "../../../AvanishBlogs-frontend/src/data/aboutdata.js";
+import { BioData } from "../data/aboutFounder.js";
 
 const getBioData = (req, res) => {
   try {
