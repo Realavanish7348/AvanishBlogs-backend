@@ -5,7 +5,7 @@ const BioData = {
   summary:
     "Execution-focused frontend developer in training, currently pursuing a BCA degree from IGNOU. Strong foundation in JavaScript and DOM concepts, currently learning React and Data Structures & Algorithms. Passionate about building useful digital products, documenting the learning journey, and creating educational tech content focused on development, AI, economics, and emerging trends. Long-term goal is to become a senior full stack developer, tech content creator, author, and entrepreneur.",
   image:
-    "https://drive.google.com/thumbnail?id=1uRQWRAR5e_Y01tOHcjXJY_nNKbZXKsO8&sz=w500",
+    "https://lh3.googleusercontent.com/d/1uRQWRAR5e_Y01tOHcjXJY_nNKbZXKsO8",
   skills: {
     frontend: [
       "HTML5",
